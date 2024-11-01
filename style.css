@@ -1,0 +1,130 @@
+i{
+    color:white;
+}
+
+.h1{
+    position: absolute;
+    padding-left: 50%;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 767px){
+  .h1{
+    position: absolute;
+    padding-left:50px;
+  font-weight: 500;
+}
+}
+.navcontainer{
+    position: relative;
+    padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+body{
+    background-color: rgba(128, 128, 128, 0.38);
+}
+.leftdiv{
+  background-color: #000000bd;
+  min-width: 100px;
+max-width: 400px;
+height: 500px;
+  background-color: #000000bd;
+  border: 0px solid ;
+border-radius: 30px;
+margin-top: 35px;
+
+}
+@media only screen and (min-width: 992px) {
+.leftdiv{
+  margin-left: 40px;
+}
+}
+@media only screen and  (width<567px){
+  .leftdiv{
+    margin-left:65px;
+    width: 325px;
+  }
+}
+@media only screen and (min-width:567px) and (max-width: 767px){
+  .leftdiv{
+    margin-left: 30%;
+    width: 325px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width: 992px){
+  .leftdiv{
+    margin-left: 30%;
+  }
+}
+.inputtag{
+    width: 70%;
+  margin-top: 60px;
+  background-color: #000000bd;
+  color: white;
+  margin-left: 170px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 12px;
+  border: 0px solid;
+  border-radius: 7px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.one{
+    background-color: #000000bd;
+    /* width: 33%; */
+    height: 140px;
+  margin-top: 65px;
+  margin-left: 60px;
+  border: 0px solid;
+  border-radius: 20px;   
+}
+.two{
+    background-color: #000000bd;
+    /* width: 33%; */
+    height: 140px;
+  margin-top: 65px;
+  margin-left: 60px;
+  border: 0px solid;
+  border-radius: 20px;
+}
+.three{
+    background-color: #000000bd;
+    height: 140px;
+  margin-top: 65px;
+  margin-left: 60px;
+  border: 0px solid;
+  border-radius: 20px;
+}
+.rowflex{
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 767px){
+.rowflex{
+    display: flex;
+    flex-direction: column;
+}
+.bottomdiv{
+  margin-left:30px !important;
+}
+.one,.two,.three{
+  width: 80%;
+}
+.inputtag{
+  width: 90%;
+    margin-left: 40px;
+
+}
+}
+.bottomdiv{
+    background-color: #000000bd;
+  margin-top: 50px;
+  margin-left: 60px;
+  border: 0px solid;
+  border-radius: 20px;
+  /* width: 93%; */
+  height: 27vh;
+}
